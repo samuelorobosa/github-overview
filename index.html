@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://kit.fontawesome.com/b2c6544cf0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>GitHub Profile Overview</title>
+</head>
+<body>
+
+<!--Header-->
+<div class="container-fluid" id="GithubProfileOverviewPageTitleWrapper">
+    <div class="row">
+         <h3  id="GithubProfileOverviewPageTitle">GitHub Profile Overview</h3>
+    </div>
+</div>
+
+<!--Search Form-->
+<div class="container position-relative text-center" id="GithubProfileOverviewPageFormWrapper">
+        <i class="fas fa-search d-inline-block position-absolute"></i>
+        <input type="text" id="GithubProfileOverviewPageFormInputField" class="py-2 px-5 ms-n5" placeholder="Input a Github username..">
+</div>
+
+<!--Profile Picture-->
+<div class="container-fluid d-none" id="data-container">
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="./js/custom.js"></script>
+</body>
+</html>
