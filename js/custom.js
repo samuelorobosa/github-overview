@@ -127,7 +127,7 @@ function printRepoHtml(repoInfo){
                                 </div>
             
                                 <div class="">
-                                    ${repoInfo.userRepoData[i].size.toLocaleString()} KB
+                                    ${repoInfo.userRepoData[i].size.toLocaleString()}&nbsp;KB
                                 </div>
                                 </div>
                             </div>
